@@ -5,7 +5,7 @@ ma per i multipli di 3 stampi “Fizz” al posto del numero
 Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 */
 var risultato
-for (i=1;i<=100;i++) {
+for (var i=1;i<=100;i++) {
     if ((i%5==0)&&(i%3==0)){
         risultato='FizzBuzz';
     } else if (i%5==0) {
